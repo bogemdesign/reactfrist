@@ -1,0 +1,40 @@
+.jumbotron{
+    min-height:300px ;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+.jumbotron .jum-img{
+    width:50% ;
+
+}
+.jumbotron .jum-img img{
+    width: 100%;
+}
+
+.jumbotron .jum-text{
+    width: 50%;
+    padding:20px ;
+    line-height :1.6em; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.jumbotron .jum-text h2{
+    margin-bottom: 20px;
+}
+.jum-text button{
+    border:none;
+    border-radius: 0 10px 10px 0;
+    background: linear-gradient(45deg,rgb(12, 48, 211),#009866);
+    color:#fff;
+    font-weight: 600;
+    margin-top:20px;
+    padding: 15px;
+    width: 80%;
+    font-size: 1.1em;
+}

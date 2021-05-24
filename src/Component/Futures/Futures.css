@@ -1,0 +1,40 @@
+.con-futures{
+    background: #fff;
+    padding: 50px 0;
+}
+.futures{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.futures .futures-img{
+    width: 50%;
+    overflow: hidden;
+}
+.futures .futures-img img{
+    width:100%;
+}
+.futures .futures-text{
+    width:50%;
+    padding:0 10px;
+    line-height: 1.6em;
+}
+.futures .futures-text h3{
+    font-size: 1.7em;
+    margin:20px 0;
+    line-height:1.3em ;
+    font-weight: bold;
+    text-align: center;
+}
+@media(max-width:480px){
+    .futures{
+        flex-direction: column;
+        
+    }
+    .futures .futures-img{
+        width: 100%;
+    }
+    .futures .futures-text{
+        width: 100%;
+    }
+}

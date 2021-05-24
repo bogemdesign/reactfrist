@@ -1,0 +1,26 @@
+.card-whycom{
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: rgb(12, 216, 223);
+    text-align: center;
+    border: solid 5px #fff;
+    color: rgb(27, 24, 24);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.whycom-icon{
+    height: 300px;
+    overflow: hidden;
+}
+.whycom-text{
+    line-height: 1.6em;
+    padding: 10px;
+
+}
+.whycom-text h4{
+    margin:10px 0;
+    font-size: 1.4em;
+}
